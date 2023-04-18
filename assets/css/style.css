@@ -6,6 +6,7 @@
 }
 .align-nav {
   background: #ebf7ff;
+  border-bottom: 1px solid #f47521;
 }
 .location-history {
   text-align: end;
@@ -90,7 +91,7 @@ input.dent-check[type="checkbox"]:checked + label {
 .check-dent label {
   width: 100%;
   display: contents;
-  font-size: 20px;
+  font-size: 16px;
   color: #429fdd;
 }
 
@@ -109,15 +110,12 @@ input.dent-check[type="checkbox"]:checked + label {
   border-left: 1px solid #434343;
 }
 .margin-minus {
-  margin-top: -86px;
+  margin-top: -55px;
 }
-
-
-
 
 input.mark-check[type="checkbox"] {
   position: relative;
-  border: 2px solid #429FDD;
+  border: 2px solid #429fdd;
   border-radius: 2px;
   background: none;
   cursor: pointer;
@@ -148,7 +146,7 @@ input.mark-check[type="checkbox"]::before {
   width: 4px;
   height: 10px;
   border-style: solid;
-  border-color: #429FDD;
+  border-color: #429fdd;
   border-image: initial;
   border-width: 0px 2px 2px 0px;
   margin: -1px -1px 0px;
@@ -157,8 +155,6 @@ input.mark-check[type="checkbox"]::before {
   opacity: 1;
 }
 
-
-
 input.mark-check[type="checkbox"]::before {
   opacity: 0;
 }
@@ -166,20 +162,20 @@ input.mark-check[type="checkbox"]::before {
 input.mark-check[type="checkbox"]:checked::before {
   opacity: 1;
 }
-.form-group-checkbox{
+.form-group-checkbox {
   display: flex;
   align-items: center;
   /* margin-bottom: 25px; */
 }
 
 p.check-box-title {
-    margin-bottom: 30px;
-    font-weight: 600;
+  margin-bottom: 30px;
+  font-weight: 600;
 }
 
 p.check-box-title i {
-    font-size: 15px;
-    font-weight: 400;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 p.check-box-title {
@@ -201,8 +197,6 @@ button.submit-btn {
   font-weight: 500;
 }
 
-
-
 /* ============================second page ======================== */
 .location-top {
   text-align: center;
@@ -213,8 +207,47 @@ button.submit-btn {
   font-size: 48px;
   margin-bottom: 10px;
   font-weight: 600;
-}.endodontist-img {
+}
+.endodontist-img {
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+[type="file"] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+[type="file"] + label {
+  background: #e6e6e6;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: inherit;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem 50px;
+  position: relative;
+  transition: all 0.3s;
+  vertical-align: middle;
+}
+[type="file"] + label:hover {
+  background-color: #aba9a9;
+}
+.teeth-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.option-input {
+  margin-top: 50px;
+}
+h3.section-title {
+  margin: 35px 0;
 }
