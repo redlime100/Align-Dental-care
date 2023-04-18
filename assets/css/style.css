@@ -28,7 +28,7 @@
   align-items: center;
   white-space: pre;
   gap: 10px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .form-input {
@@ -169,7 +169,7 @@ input.mark-check[type="checkbox"]:checked::before {
 .form-group-checkbox{
   display: flex;
   align-items: center;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 p.check-box-title {
@@ -196,6 +196,25 @@ button.submit-btn {
   background: var(--main-color);
   border: none;
   color: var(--white-color);
-  padding: 5px 25px;
+  padding: 8px 25px;
   border-radius: 40px;
+  font-weight: 500;
+}
+
+
+
+/* ============================second page ======================== */
+.location-top {
+  text-align: center;
+  width: 100%;
+}
+
+.location-top h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}.endodontist-img {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }

@@ -52,7 +52,7 @@ html {
 }
 
 .container {
-  max-width: 1330px;
+  max-width: 1390px;
 }
 
 body {
@@ -158,4 +158,7 @@ table.table {
 }
 .cpb-8{
   padding-bottom: 80px;
+}
+.input-gap{
+  margin: 25px 0;
 }
