@@ -110,7 +110,7 @@ input.dent-check[type="checkbox"]:checked + label {
   border-left: 1px solid #434343;
 }
 .margin-minus {
-  margin-top: -55px;
+  margin-top: -45px;
 }
 
 input.mark-check[type="checkbox"] {
