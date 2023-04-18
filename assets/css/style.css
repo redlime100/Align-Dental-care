@@ -251,3 +251,28 @@ button.submit-btn {
 h3.section-title {
   margin: 35px 0;
 }
+.appreciate-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.appreciate-content h3 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.appreciate-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+p.rf-link {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}a.out-link {
+  color: #429FDD;
+  transition: .3s;
+  padding: 5px;
+}
